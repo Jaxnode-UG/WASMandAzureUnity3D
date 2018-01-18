@@ -1,0 +1,21 @@
+{
+    "name": "simplewsserver",
+    "preferGlobal": true,
+    "version": "0.0.1",
+    "author": "tyrsblade <tyrsblade@gmail.com",
+    "description": "simple websocket server",
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.10"
+    },
+    "scripts": {
+        "start": "node ./app.js"
+    },
+    "dependencies": {
+        "ws": "^4.0.0"
+    },
+    "optionalDependencies": {
+        "bufferutil": "^3.0.3",
+        "utf-8-validate": "^4.0.0"
+    }
+}
